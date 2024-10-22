@@ -28,7 +28,7 @@ Then User should get a proper warning message about credentials mismatch
 
 Scenario: Login with invalid email and valid password
 Given User navigates to login page
-When User enters invalid email address "amotooricap978@gmail.com" into email field
+When User enters invalid email address into email field
 And User enters valid password "12345" into password field
 And User clicks on Login button
 Then User should get a proper warning message about credentials mismatch

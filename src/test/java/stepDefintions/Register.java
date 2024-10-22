@@ -96,11 +96,6 @@ public class Register {
 		Assert.assertEquals("Password must be between 4 and 20 characters!",driver.findElement(By.xpath("//input[@id='input-password']/following-sibling::div")).getText());
 
 		driver.findElement(By.xpath("//div[contains(text(),'Warning: You must agree to the Privacy Policy!')]"));
-//		driver.findElement(By.xpath("//div[contains(text(),'First Name must be between 1 and 32 characters!')]"));
-//		driver.findElement(By.xpath("//div[contains(text(),'Last Name must be between 1 and 32 characters!')]"));
-//		driver.findElement(By.xpath("//div[contains(text(),'E-Mail Address does not appear to be valid!')]"));
-//		driver.findElement(By.xpath("//div[contains(text(),'Telephone must be between 3 and 32 characters!')]"));
-//		driver.findElement(By.xpath("//div[contains(text(),'Password must be between 4 and 20 characters!')]"));
 
 	}
 
